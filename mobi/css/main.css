@@ -1,0 +1,113 @@
+/*Mobile Page*/
+.indexlogo {
+    height: 50px;
+    margin-bottom: -20px;
+}
+
+.navgmobi {
+	width: 99%;
+}
+
+#navcontainermobi {
+	background: #ccc;
+	width: 99%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#navitemsmobi {
+	float: left;
+	width: 99%;
+	color: #fff;
+	background: #002245;
+	text-align: center;
+	padding-top: 1em;
+	margin-top: 1px;
+	padding-bottom: 1em;
+	border-right: 1px solid #015b93;
+	   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+#navitemsmobi:hover {
+opacity: 0.8;
+background-image: linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+background-image: -o-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+background-image: -moz-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+background-image: -webkit-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+background-image: -ms-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+}
+
+
+.bottomcontainermobi {
+    float: left;
+    width: 98%;
+    margin-right: 2px;
+    margin-left: 2px;
+    border:2px solid #a1a1a1;
+    margin-top: 5px;
+	cursor: pointer;
+}
+
+.indexproductimagelogocontainer {
+    float: left;
+    height: 60px;
+    width: 100px;
+    padding-right: 10px;
+}
+
+.indexproducttextcontainer {
+    font-size: 13px;
+    text-align: justify;
+}
+
+/*Single Product Page*/
+.indexlogocontainer {
+    float: left;
+    width: 200px;   
+}
+
+.homebutton {
+    float: right;
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-decoration: underline;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+    background: #002245;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.productheader {
+    height: 53px;
+    border-top: 1px solid #015b93;
+    border-bottom: 1px solid #015b93;
+    background-image:url('../img/productsheaderbackground.png');
+}
+
+.fnitabnavigation {
+    list-style: none;
+    border: 1px solid #015b93;
+    width: 160px;
+    float: right;
+}
+
+.fnitabnavigation li {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    border:1px solid #015b93;
+    width: 78px;
+}
+

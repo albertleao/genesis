@@ -1,0 +1,183 @@
+.logocontainer {
+    margin-top: 10px;
+    max-height: 52px;
+    max-width: 228px;
+}
+
+#genesislogo {
+    margin-top:-20px;
+    float: right;
+    max-height: 52px
+}
+
+.navcontainer {
+    margin-top: 15px
+}
+
+.navitems {
+    float: right;
+    width: 135px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 14px;
+    color: #fff;
+    background: #002245;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid #015b93;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.navitems:hover {
+opacity: 0.8;
+background-image: linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+background-image: -o-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+background-image: -moz-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+background-image: -webkit-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+background-image: -ms-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60%);
+}
+
+.slideshow {
+	margin-top: 12px;
+	padding-top: 5px;
+	height: 325px;
+	border-top: 1px solid #015b93;
+	text-align: center;
+}
+
+.subnavbar {
+     margin-top: 3px;
+     margin-bottom: -10px;
+     border-top: 1px solid #015b93;
+     text-align: center;   
+}
+
+.subnavbar ul li{
+    margin-right: 50px;
+    display: inline;
+    list-style: none;
+}
+
+.slideshowhover {
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 1.8em;
+    margin-top: 3em;
+    background: #fff;
+    box-shadow: 3px 3px 10px #ccc;   
+}
+
+.mainpagetiles {
+    margin-top: 10px;
+    height: 135px;
+    max-width: 11.38em;
+    text-align: center;
+    opacity: .7;
+    border-right: 1px solid #015b93;
+    border-left: 1px solid #015b93;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.mainpagetiles:hover {
+    margin-bottom: 0px;
+    border-top: 1px solid #015b93;
+    border-bottom: 1px solid #015b93;
+    box-shadow: 3px 3px 10px #ccc;
+    opacity: 1;
+}
+
+
+
+
+
+.mainpagetileslogocontainer {
+    height: 47px;
+}
+
+.mainpagetilestext {
+    margin-top: -5px;
+    font-size: 12px;
+    line-height: 130%;
+}
+
+
+.indexinfo {
+    margin-top: 10px;
+    border-top: 1px solid #015b93;    
+}
+
+/*Beginning of Products Page*/
+.productsheader {
+     height: 70px;
+     vertical-align: middle;
+     border-bottom: 1px solid #015b93;
+}
+
+.indextabnavigation{ 
+     font-size: 16px;
+     background: #fff;
+     width: 80%;
+     border: 1px solid;
+     box-shadow: 2px 2px 2px #ccc;
+     text-align: center;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: -15px
+}
+
+.indextabnavigation li {
+    display: inline;
+    margin-right: auto;
+}
+
+
+.productscontainerleft {
+    margin-top: 5px;
+    float: left;
+}
+
+.productscontainerright {
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+
+.productcontainer {
+    height: 122px;
+    margin-bottom: 5px;
+    width: 350px;
+}
+
+
+.productlogo{
+     border: 1px solid #ccc;
+     width: 130px;
+     height: 120px;
+     margin-right: 5px;
+     float: left;
+     cursor: pointer;
+}
+
+.productlogo:hover{
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+.productheader {
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.makerequest {
+    margin-top: 10px;
+    border-top: 1px solid #015b93;
+    background: #A3D1FF;
+    }
+    

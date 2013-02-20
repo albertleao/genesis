@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Genesis Solutions Design</title>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/text.css" />
+<link rel="stylesheet" href="css/960_24_col.css" />
+<link rel="stylesheet" href="css/main.css" />
+
+<script type="text/javascript" src="js/preloadfrontimages.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+if (screen.width <= 699) {
+document.location = "http://www.homesync.co/genesis/mobi";
+}
+
+</script>
+
+</head>
+<body>
+<div class="container_24">
+
+<!--Navigation Bar-->
+<?php include 'phpscripts/topnavigationbar.php'; ?>
+
+<!--Sub Nav Bar-->
+<div class="grid_24 subnavbar">
+	<ul>
+		<li><a href='index.php'>Home</a></li>
+		<li>About Us</li>
+		<li>FAQ</li>
+		<li>News</li>
+		<li>Make a Request</li>
+		<li>Contact Us</li>
+	</ul>
+</div>
+<div class='clear'></div>
+
+
+
+<!--Slideshow-->
+  <div class="grid_24 slideshow">
+	<!--<div class='slideshowhover'>
+		FLOATING	  
+	</div>-->
+	<a href="javascript:slidelink()"><img src="" name="slide"/></a>
+	<script type="text/javascript" src="js/frontpageslideshow.js"></script>
+<!--End Slideshow-->
+</div>
+<div class='clear'></div>
+
+  
+<!--mainpagetiles-->  
+<div class='grid_4 mainpagetiles' onclick="document.location='fnisuite.php'">
+	<div class='mainpagetileslogocontainer'>
+		<img class='mainpagetileslogo' src='img/indexfnilogo.png' />
+	</div>
+	<p class='mainpagetilestext'>A suite of water mitigation applications working to: setup, track, monitor, and report on water claims.</p>
+</div>
+
+<div class='grid_4 mainpagetiles' onclick="document.location='cattrax.php'">
+	<div class='mainpagetileslogocontainer'>
+		<img class='mainpagetileslogo' src='img/indexcattraxlogo.png' />
+	</div>
+	<p class='mainpagetilestext'>An assignment and tracking engine for professional services following a catastrophic event.</p>
+</div>  
+
+<div class='grid_4 mainpagetiles' onclick="document.location='einvoicing.php'">
+	<div class='mainpagetileslogocontainer'>
+		<img class='mainpagetileslogo' src='img/indexeinvoicinglogo.png' />
+	</div>
+	<p class='mainpagetilestext'>Built for claims adjusters and other professional service providers.</p>
+</div>   
+  
+<div class='grid_4 mainpagetiles' onclick="document.location='gms.php'">
+	<div class='mainpagetileslogocontainer'>
+		<img class='mainpagetileslogo' src='img/indexgms.png' />
+	</div>
+	<p class='mainpagetilestext'>A robust assignment, management and reporting application for service related industries.</p>
+</div>
+
+<div class='grid_4 mainpagetiles' onclick="document.location='bidxclaim.php'">
+	<div class='mainpagetileslogocontainer'>
+		<img class='mainpagetileslogo' src='img/indexbidxclaimlogo.png' />
+	</div>
+	<p class='mainpagetilestext'>A platform in which sponsors and bidders can take advantage of a competitive marketplace.</p>
+</div>
+
+<div class='grid_4 mainpagetiles' onclick="document.location='mobidiagram.php'">
+	<div class='mainpagetileslogocontainer'>
+		<img class='mainpagetileslogo' src='img/indexgmdlogo.png' />
+	</div>
+	<br />
+	<p class='mainpagetilestext'>A multiplatform diagramming tool customizable for any industry.</p>
+</div>
+<div class="clear"></div>
+
+
+<!--index page info-->  
+<div class='grid_7 indexinfo'>
+	<div>
+	Insurance Companies<br />
+	<img src='img/insurancelogo.png' style='max-height: 100px;'>
+	</div>
+	<div class='clear'></div>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<div>
+	Professional Service Providers<br />
+	<img src='img/professionalservice.png' style='max-height: 100px;'>
+	</div>
+</div>
+
+<div class='grid_10 indexinfo'>
+<center><a class='productpageheadertext'>
+	A Different Perpective
+</a>
+</center>
+	<p class='indexmiddle'>
+	Since our founding in 2006 Genesis Solutions Design has developed several custom core products depicted above. We work from a client needs and demand based vision 
+	and pepper it with creative options to provide industry best solutions. Our team is both broad and deep with backgrounds in engineering, construction, property insurance 
+	, software development and sales. We like ot think our software is intuitive to its audience but by the sheer meaning of intuitive it must then be built by 
+	those with experience in the industries we work. By designing in teams with these varied backgrounds, we are able to develop software that takes on a unique 
+	flare that cuts through the old thought process delivering robust and insightful applications.<br /><br />
+	All of the products above can be used seperately, together, or in any combination. We also specialize in connecting with other 3rd party applications 
+	making it easy for our clients to utilize existing resources by keeping what works and replacing what doesn't. Data analysis and metrics are also a key compenent 
+	of our DNA.<br /><br />
+	Browse our applications detailed page descriptions and contact us regarding any questions or ideas you are contemplating. We want to be your Genesis as well.
+	</p>
+</div>
+
+<div class='grid_7 indexinfo'>
+	<div>
+	Water Mitigation Contractors<br />
+	<img src='img/watermitigation.png' style='max-height: 100px;'>
+	</div>
+	<div class='clear'></div>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<div>
+	Property Managers<br />
+	<img src='img/propertymanager.png' style='max-height: 100px;'>
+	</div>
+</div>
+
+<div class='clear'></div>
+<br />
+<footer>
+<div class='grid_12'>
+	<img src='img/genesislogo.png' alt='Logo' title='Genesis Solutions Design'/>
+</div>
+
+<div class='grid_12'>
+
+<a class='productpageheadertext'>
+	Contact Us:
+</a><br />
+Our Phone Number:<br />
+Our Email Address:
+</div>
+
+</footer>
+ 
+ 
+</div>
+<!-- end .container_24 -->
+</body>
+</html>
