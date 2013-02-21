@@ -16,12 +16,26 @@
 <div class="container_24">
 
 <!--Navigation Bar-->
-<?php include 'phpscripts/topnavigationbar.php'; ?>
+<div class="grid_6 logocontainer">
+<h1>
+	<a href="index.html"><img id="genesislogo" src="img/genesislogo.png" alt="Logo" title="Genesis Solutions Design"/></a>
+</h1>
+</div>
+
+<div class="grid_18 navcontainer">
+	<div class="navitems">Property Managers</div>
+	<div class="navitems">Water Mitigation Contractors</div>
+	<div class="navitems">Professional Service Providers</div>
+	<div class="navitems">Insurance Companies</div>
+	<div class="navitems" onclick="document.location=\'http://www.homesync.co/genesis/products.html\'">Products & Services</div>
+<!--End Navigation Bar-->	
+</div>
+<div class="clear"></div>
 
 <!--Sub Nav Bar-->
 <div class="grid_24 subnavbar">
 	<ul>
-		<li><a href='index.php'>Home</a></li>
+		<li><a href='index.html'>Home</a></li>
 		<li>About Us</li>
 		<li>FAQ</li>
 		<li>News</li>
@@ -42,70 +56,70 @@
 	</div>
 	
 		<div class='productcontainer'>
-			<div class='productlogocontainer' onclick="document.location='fnisuite.php';">
+			<div class='productlogocontainer' onclick="document.location='fnisuite.html';">
 				<img class='productslogo' src='img/productsfnilogo.png' />
 			</div>
-			<a class='singleproductheader' href='fnisuite.php'>
+			<a class='singleproductheader' href='fnisuite.html'>
 			Fire n Ice Suite
 			</a><br />
 			Water mitigation software
 		</div>
 		
 		<div class='productcontainer'>
-			<div class='productlogocontainer' onclick="document.location='einvoicing.php';">
+			<div class='productlogocontainer' onclick="document.location='einvoicing.html';">
 			eInvoicing
 			</div>
-			<a class='singleproductheader' href='einvoicing.php'>
+			<a class='singleproductheader' href='einvoicing.html'>
 			eInvoicing
 			</a><br />
 			<!--Online billing system for service related companies-->
 		</div>
 		
 		<div class='productcontainer'>
-			<div class='productlogocontainer' onclick="document.location='cattrax.php';">
+			<div class='productlogocontainer' onclick="document.location='cattrax.html';">
 			CatTrax
 			</div>
-			<a class='singleproductheader' href='cattrax.php'>
+			<a class='singleproductheader' href='cattrax.html'>
 			CatTrax
 			</a><br />
 			<!--Claim and Assignment tracking system.-->
 		</div>
 		
 		<div class='productcontainer'>
-			<div class='productlogocontainer' onclick="document.location='gms.php';">
+			<div class='productlogocontainer' onclick="document.location='gms.html';">
 			Genesis Management Systems
 			</div>
-			<a class='singleproductheader' href='gms.php'>
+			<a class='singleproductheader' href='gms.html'>
 			Genesis Management Systems
 			</a><br />
 			<!--Job Management and Communication system-->
 		</div>
 			
 		<div class='productcontainer'>
-			<div class='productlogocontainer' onclick="document.location='bidxclaim.php';">
+			<div class='productlogocontainer' onclick="document.location='bidxclaim.html';">
 			BidXClaim
 			</div>
-			<a class='singleproductheader' href='bidxclaim.php'>
+			<a class='singleproductheader' href='bidxclaim.html'>
 			BidXClaim
 			</a><br />
 			<!--Reverse Auction web site to invite competition amongst contractors-->
 		</div>
 		
 		<div class='productcontainer'>
-			<div class='productlogocontainer' onclick="document.location='mobidiagram.php';">
+			<div class='productlogocontainer' onclick="document.location='mobidiagram.html';">
 			Mobile Diagramming
 			</div>
-			<a class='singleproductheader' href='mobidiagram.php'>
+			<a class='singleproductheader' href='mobidiagram.html'>
 			Mobile Diagramming
 			</a><br />
 			<!--Desktop and iPad Diagramming with upload communication to GSD core.-->
 		</div>
 		
 		<div class='productcontainer'>
-			<div class='productlogocontainer' onclick="document.location='mobidiagram.php';">
+			<div class='productlogocontainer' onclick="document.location='mobidiagram.html';">
 			Custom Solutions
 			</div>
-			<a class='singleproductheader' href='mobidiagram.php'>
+			<a class='singleproductheader' href='mobidiagram.html'>
 			Custom Solutions
 			</a><br />
 			<!--Desktop and iPad Diagramming with upload communication to GSD core.-->
@@ -117,7 +131,36 @@
 
 
 <div class='grid_6 makerequest'>
-	<?php include 'phpscripts/makerequestsidebar.php'; ?>
+	<center><span style='font-size: 17px;'>Make a Request</span></center>
+<form>
+	<table>
+		<tr>
+			<td>Name</td>
+		</tr>
+		<tr>
+			<td><input type='text' size='25'/></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+		</tr>
+		<tr>
+			<td><input type='text' size='25'/></td>
+		</tr>
+		<tr>
+			<td>Company</td>
+		</tr>
+		<tr>
+			<td><input type='text' size='25'/></td>
+		</tr>
+		<tr>
+			<td>Request</td>
+		</tr>
+		<tr>
+			<td><textarea rows='6' class='requesttextarea'></textarea></td>
+		</tr>
+	</table>
+	<input type='submit' class='button' value='Send Request'>
+	</form>
 </div>  
   
   

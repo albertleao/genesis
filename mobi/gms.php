@@ -33,7 +33,7 @@
 		<div class="g1 indexlogocontainer">
 			<img src="img/genesislogo.png" class='indexlogo' title="Genesis Solutions Design">
 		</div>
-		<div class="g1 homebutton" onclick="document.location='index.php';">
+		<div class="g1 homebutton" onclick="document.location='index.html';">
 			Home
 		</div>
 	</header>
@@ -41,7 +41,7 @@
 	<div id="content">
 		<div class="g3 productheader">
 			<div class='indexproductimagelogocontainer'>
-				<a href='fnisuite.php'><img src='img/indexgms.png' /></a>
+				<a href='fnisuite.html'><img src='img/indexgms.png' /></a>
 			</div>
 
 				

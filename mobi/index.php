@@ -52,9 +52,9 @@
 		<div class="cf"></div>
 		<div class="g3">
 		
-				<div class="bottomcontainermobi" onclick="document.location='fnisuite.php'">
+				<div class="bottomcontainermobi" onclick="document.location='fnisuite.html'">
 					<div class='indexproductimagelogocontainer'>
-						<a href='fnisuite.php'><img src='img/indexfnilogo.png' /></a>
+						<a href='fnisuite.html'><img src='img/indexfnilogo.png' /></a>
 					</div>
 					<div class='indexproducttextcontainer'>
 						A suite of water mitigation applications working to: setup, track, monitor, and report on water claims.
@@ -63,7 +63,7 @@
 				<div class="cf"></div>
 				
 				
-				<div class="bottomcontainermobi" onclick="document.location='cattrax.php'">
+				<div class="bottomcontainermobi" onclick="document.location='cattrax.html'">
 					<div class='indexproductimagelogocontainer'>
 						<img src='img/indexcattraxlogo.png' />
 					</div>
@@ -73,7 +73,7 @@
 				</div>
 				<div class="cf"></div>
 				
-				<div class="bottomcontainermobi" onclick="document.location='einvoicing.php'">
+				<div class="bottomcontainermobi" onclick="document.location='einvoicing.html'">
 					<div class='indexproductimagelogocontainer'>
 						<img src='img/indexeinvoicinglogo.png' />
 					</div>
@@ -83,7 +83,7 @@
 				</div>
 				<div class="cf"></div>
 				
-				<div class="bottomcontainermobi" onclick="document.location='gms.php'">
+				<div class="bottomcontainermobi" onclick="document.location='gms.html'">
 					<div class='indexproductimagelogocontainer'>
 						<img src='img/indexgms.png' />
 					</div>
@@ -93,7 +93,7 @@
 				</div>
 				<div class="cf"></div>
 				
-				<div class="bottomcontainermobi" onclick="document.location='bidxclaim.php'">
+				<div class="bottomcontainermobi" onclick="document.location='bidxclaim.html'">
 					<div class='indexproductimagelogocontainer'>
 						<img src='img/indexbidxclaimlogo.png' />
 					</div>
@@ -103,7 +103,7 @@
 				</div>
 				<div class="cf"></div>
 				
-				<div class="bottomcontainermobi" onclick="document.location='mobidiagram.php'">
+				<div class="bottomcontainermobi" onclick="document.location='mobidiagram.html'">
 					<div class='indexproductimagelogocontainer'>
 						<img src='img/indexgmdlogo.png' />
 					</div>
@@ -118,7 +118,7 @@
 	</div>
 	<br />
 	<footer class="g3 cf">
-		<a href='request.php'>Click Here to Contact Us</a>
+		<a href='request.html'>Click Here to Contact Us</a>
 	</footer>
 
 	<!-- JavaScript at the bottom for fast page loading -->

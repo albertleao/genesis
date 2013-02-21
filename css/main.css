@@ -22,6 +22,7 @@
     font-size: 14px;
     color: #fff;
     background: #002245;
+    height: 40px;;
     text-align: center;
     cursor: pointer;
     border-right: 1px solid #015b93;
@@ -41,17 +42,17 @@ background-image: -ms-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60
 }
 
 .slideshow {
-	margin-top: 12px;
-	padding-top: 5px;
-	height: 325px;
-	border-top: 1px solid #015b93;
-	text-align: center;
+    margin-top: 12px;
+    padding-top: 5px;
+    height: 325px;
+    text-align: center;
 }
 
 .subnavbar {
      margin-top: 3px;
      margin-bottom: -10px;
      border-top: 1px solid #015b93;
+     border-bottom: 1px solid #015b93;
      text-align: center;   
 }
 
@@ -155,6 +156,11 @@ background-image: -ms-linear-gradient(bottom, rgb(1,91,147) 20%, rgb(0,35,69) 60
     width: 350px;
 }
 
+.productsheadercontainer {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .productlogo{
      border: 1px solid #ccc;

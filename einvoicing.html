@@ -16,12 +16,26 @@
 <div class="container_24">
 
 <!--Navigation Bar-->
-<?php include 'phpscripts/topnavigationbar.php'; ?>
+<div class="grid_6 logocontainer">
+<h1>
+	<a href="index.html"><img id="genesislogo" src="img/genesislogo.png" alt="Logo" title="Genesis Solutions Design"/></a>
+</h1>
+</div>
+
+<div class="grid_18 navcontainer">
+	<div class="navitems">Property Managers</div>
+	<div class="navitems">Water Mitigation Contractors</div>
+	<div class="navitems">Professional Service Providers</div>
+	<div class="navitems">Insurance Companies</div>
+	<div class="navitems" onclick="document.location=\'http://www.homesync.co/genesis/products.html\'">Products & Services</div>
+<!--End Navigation Bar-->	
+</div>
+<div class="clear"></div>
 
 <!--Sub Nav Bar-->
 <div class="grid_24 subnavbar">
 	<ul>
-		<li><a href='index.php'>Home</a></li>
+		<li><a href='index.html'>Home</a></li>
 		<li>About Us</li>
 		<li>FAQ</li>
 		<li>News</li>
@@ -33,10 +47,10 @@
 
 
 <!--index page info-->  
-<div class='grid_18 indexinfo'>
+<div class='grid_18'>
 	<div class='productsheadercontainer'>
 		<h3>
-			Mobile Diagramming
+			eInvoicing
 		</h3>
 	</div>
 	<div class='tabs'>
@@ -83,7 +97,36 @@
 
 
 <div class='grid_6 makerequest'>
-	<?php include 'phpscripts/makerequestsidebar.php'; ?>
+	<center><span style='font-size: 17px;'>Make a Request</span></center>
+<form>
+	<table>
+		<tr>
+			<td>Name</td>
+		</tr>
+		<tr>
+			<td><input type='text' size='25'/></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+		</tr>
+		<tr>
+			<td><input type='text' size='25'/></td>
+		</tr>
+		<tr>
+			<td>Company</td>
+		</tr>
+		<tr>
+			<td><input type='text' size='25'/></td>
+		</tr>
+		<tr>
+			<td>Request</td>
+		</tr>
+		<tr>
+			<td><textarea rows='6' class='requesttextarea'></textarea></td>
+		</tr>
+	</table>
+	<input type='submit' class='button' value='Send Request'>
+	</form>
 </div>  
   
   
